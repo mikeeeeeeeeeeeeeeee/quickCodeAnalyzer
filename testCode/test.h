@@ -1,5 +1,21 @@
 //something
 
+
+// Derived (child)
+class MyChild: public MyClass2 {
+};
+
+
+// Derived (child)
+//class MyChild: public MyClass2 {
+};
+
+// Derived (child)
+// gzuftzrtdh b class MyChild: public MyClass2 {
+};
+// class MyChild: public MyClass2 {
+};
+
 class A;
 
 class MyClass1 {       // The class
@@ -29,9 +45,6 @@ class MyClass2 {
     void myFunction();
 };
 
-// Derived class (child)
-class MyChild: public MyClass2 {
-};
 
 // Derived class (grandchild) 
 class MyGrandChild: public MyChild
@@ -54,3 +67,7 @@ class MyOtherClass {
 class MyChildClass: public MyClass3, public MyOtherClass {
 };
 
+
+// Derived class 
+class MyChildClass__: public MyClass3__, public MyOtherClass__, private BB {
+};
